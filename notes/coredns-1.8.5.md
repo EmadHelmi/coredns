@@ -43,7 +43,7 @@ Yong Tang.
 * plugin/cache: Unset AD flag when DO is not set for cache miss (https://github.com/coredns/coredns/pull/4736)
 * plugin/cache: Update cache metrics and add a total cache request counter to follow Prometheus convention (https://github.com/coredns/coredns/pull/4781)
 * plugin/errors: Add configurable log level to errors plugin (https://github.com/coredns/coredns/pull/4718)
-* plugin/file: fix wildcard CNAME answer (https://github.com/coredns/coredns/pull/4828)
+* plugin/custom_file: fix wildcard CNAME answer (https://github.com/coredns/coredns/pull/4828)
 * plugin/forward: Add proxy address as tag (https://github.com/coredns/coredns/pull/4757)
 * plugin/geoip: Create geoip plugin (https://github.com/coredns/coredns/pull/4688)
 * plugin/header: Introduce header plugin (https://github.com/coredns/coredns/pull/4752)

@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/coredns/coredns/plugin/custom_file/tree"
 	"github.com/coredns/coredns/plugin/file"
-	"github.com/coredns/coredns/plugin/file/tree"
 	clog "github.com/coredns/coredns/plugin/pkg/log"
 
 	"github.com/miekg/dns"

@@ -32,8 +32,8 @@ Yong Tang.
 
 ## Noteworthy Changes
 
-* plugin/file: close correctly after AXFR (https://github.com/coredns/coredns/pull/2943)
-* plugin/file: load secondary zones lazily on startup (https://github.com/coredns/coredns/pull/2944)
+* plugin/custom_file: close correctly after AXFR (https://github.com/coredns/coredns/pull/2943)
+* plugin/custom_file: load secondary zones lazily on startup (https://github.com/coredns/coredns/pull/2944)
 * plugin/template: support metadata (https://github.com/coredns/coredns/pull/2958)
 * build: Update Caddy to 1.0.1, and update import path (https://github.com/coredns/coredns/pull/2961)
 * plugins: set upstream unconditionally (https://github.com/coredns/coredns/pull/2956)

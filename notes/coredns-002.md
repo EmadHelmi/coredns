@@ -58,7 +58,7 @@ CoreDNS is a DNS server that chains plugins, where each plugin implements a DNS 
         }
     }
     ~~~
-* plugin/file: handle wildcards better.
+* plugin/custom_file: handle wildcards better.
 * plugin/kubernetes: TLS support for kubernetes and other improvements.
 * plugin/cache: use an LRU cache to make it memory bounded. Added more option to have more
   control on what is cached and for how long. The cache stanza was extended:

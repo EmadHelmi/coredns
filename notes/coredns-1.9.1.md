@@ -25,7 +25,7 @@ xuweiwei
 
 * plugin/autopath: Don't panic on empty token (https://github.com/coredns/coredns/pull/5169)
 * plugin/cache: Add zones label to cache metrics (https://github.com/coredns/coredns/pull/5124)
-* plugin/file: Add TXT test case (https://github.com/coredns/coredns/pull/5079)
+* plugin/custom_file: Add TXT test case (https://github.com/coredns/coredns/pull/5079)
 * plugin/forward: Don't panic when from-zone cannot be normalized (https://github.com/coredns/coredns/pull/5170)
 * plugin/grpc: Fix healthy proxy error case (https://github.com/coredns/coredns/pull/5168)
 * plugin/grpc: Don't panic when from-zone cannot be normalized (https://github.com/coredns/coredns/pull/5171)

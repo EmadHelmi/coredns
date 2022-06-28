@@ -1,0 +1,27 @@
+example.com {
+    custom_whoami
+    log
+    # errors
+    # auto
+    reload 3s
+    weighted_loadbalance percentage /etc/coredns/loadbalances/weights.example.com.yml example.com
+    custom_file /etc/coredns/db.example.com example.com {
+        reload 3s
+    }
+    # file /etc/coredns/db.a.example.com a.example.com
+    
+    # If you wish to use a standard Hosts File format, uncomment the following line and customize the specified file
+    # hosts /etc/coredns/example.com.hosts example.com
+}
+
+################################ Comment and Version ################################
+# This Corefile will check for changes every 10 seconds
+#
+# Changes to a hosts file will be detected and reloaded automatically.
+#
+# Changes to a Zone file will be detected and reloaded automatically 
+#   if you increment the serial number in the zone definition
+# 
+# Version: 1.0
+#
+#####################################################################################

@@ -28,7 +28,7 @@ go.mod                  @miekg @chrisohaver @johnbelamaric @yongtang @stp-ip
 /plugin/erratic/        @miekg
 /plugin/errors/         @miekg
 /plugin/etcd/           @miekg @nitisht
-/plugin/file/           @miekg @yongtang @stp-ip
+/plugin/custom_file/           @miekg @yongtang @stp-ip
 /plugin/forward/        @johnbelamaric @miekg @rdrozhdzh
 /plugin/geoip/          @miekg @snebel29
 /plugin/grpc/           @inigohu @miekg @zouyee

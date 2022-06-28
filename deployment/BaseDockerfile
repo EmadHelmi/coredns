@@ -1,0 +1,7 @@
+FROM golang:1.17
+LABEL maintainer="Emad Helmi"
+
+WORKDIR /code
+COPY coredns /code 
+
+RUN make

@@ -1,0 +1,16 @@
+version: '3.1'
+services:
+    coredns:
+        build: ../..
+        image: emahelmi/coredns:latest
+        container_name: custom_coredns
+        restart: always  # other option: always - if you want persistent through host reboots
+        expose:
+            - '53'
+            - '53/udp'
+        ports:
+            - '53:1053'
+            - '53:1053/udp'
+        volumes:
+            - './config:/etc/coredns'
+        command: '/code/coredns -conf /etc/coredns/Corefile -dns.port=1053'
